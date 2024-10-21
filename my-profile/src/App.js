@@ -95,6 +95,7 @@ function App() {
               placeholder="Name"
               value={formData.name}
               onChange={handleInputChange}
+              required
             />
             <input
               type="email"
@@ -102,6 +103,7 @@ function App() {
               placeholder="Email"
               value={formData.email}
               onChange={handleInputChange}
+              required
             />
             <input
               type="text"
@@ -109,6 +111,7 @@ function App() {
               placeholder="Message"
               value={formData.message}
               onChange={handleInputChange}
+              required
             />
             <button
               type="button"
